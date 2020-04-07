@@ -145,23 +145,15 @@ public class Questions {
 	 * → {"Bert","Jeff"}
 	 */
 	public String[] csvScan(String csvInput) {
-
 		String[] ownerSplit = csvInput.split("\n");
-
 		SortedSet<String> answer = new TreeSet<>();
-
 		for (int i = 0; i < ownerSplit.length; i++) {
-
 			int ownerEnd = ownerSplit[i].indexOf(",");
-
 			if (ownerSplit[i].contains("False")) {
 				answer.add(ownerSplit[i].substring(0, ownerEnd));
 			}
-
 		}
-
 		String[] answerConverted = answer.toArray(new String[answer.size()]);
-
 		return answerConverted;
 	}
 
