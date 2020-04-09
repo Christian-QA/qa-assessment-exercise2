@@ -1,0 +1,6 @@
+projectKey=com.qa:testdrivendevelopment
+serverUrl=http://34.89.91.196:9000
+serverVersion=8.2.0.32929
+dashboardUrl=http://34.89.91.196:9000/dashboard?id=com.qa%3Atestdrivendevelopment
+ceTaskId=AXFZ6CWx1kHxDU3UfoLl
+ceTaskUrl=http://34.89.91.196:9000/api/ce/task?id=AXFZ6CWx1kHxDU3UfoLl
